@@ -1,11 +1,11 @@
-# Troubleshooting-in-OpenShift
 Objectives:
 Diagnose and troubleshoot common container and pod issues.
 Understand cluster events and alerts and how to respond to them.
 Utilize OpenShift documentation effectively for troubleshooting.
 
 
-Task 1: Simulate Common Pod Failures and Practice Troubleshooting
+
+## Task 1: Simulate Common Pod Failures and Practice Troubleshooting
 Objective:
 Simulate common pod failures and practice troubleshooting to build effective diagnostic skills.
 
@@ -32,7 +32,7 @@ oc set image deployment/my-deployment nginx=nginx:latest
 
 
 
-Task 2: Monitor Cluster Events and Set Up Alerts
+## Task 2: Monitor Cluster Events and Set Up Alerts
 Objective:
 Learn to monitor cluster events and set up alerts for potential issues.
 
@@ -78,7 +78,7 @@ oc create -f alert.yaml
 
 
 
-Task 3: Use OpenShift Documentation to Resolve a Simulated Cluster Issue
+## Task 3: Use OpenShift Documentation to Resolve a Simulated Cluster Issue
 Objective:
 Practice using OpenShift documentation to resolve a simulated cluster issue.
 
