@@ -50,24 +50,7 @@ To set up an alert for the events of the pods:
 
 Create an alert.yaml file: 
 
-apiVersion: monitoring.coreos.com/v1
-kind: PrometheusRule
-metadata:
-  name: my-alert
-  namespace: openshift-monitoring
-spec:
-  groups:
-  - name: event-alerts
-    rules:
-    - alert: NormalEventDetected
-      expr: kube_event_type == "Normal"
-      for: 1m
-      labels:
-        severity: info
-      annotations:
-        summary: "A Normal event has been detected"
-        description: "A Normal event has occurred: {{ $labels.message }}" 
-
+Refer to alert.yaml file 
 
 And then create it: 
 
