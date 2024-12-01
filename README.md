@@ -42,7 +42,7 @@ Monitoring cluster events and setting up alerts enables proactive identification
 
 
 oc get events 
-# or for more specific those that are failed: 
+ #or for more specific those that are failed: 
 oc get events | grep -i failed 
 
 
